@@ -1,0 +1,22 @@
+body {
+    background-image: url(../image/img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: rgb(251, 247, 247);
+    /* sets the opacity of the card background */
+    opacity: 80%;
+    border: none;
+    /* removes the card border */
+}
+
+.card-header {
+    background-color: transparent;
+    /* makes the card header transparent */
+    border-bottom: none;
+    /* removes the bottom border of the card header */
+}
